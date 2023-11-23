@@ -30,13 +30,13 @@ soon
 #### Clone the project
 
 ```bash
-  git clone https://github.com/AliNikandish/MusicPlayer.git
+  git clone https://github.com/AliNikandish/WeatherApp-ReduxToolKit.git
 ```
 
 #### Go to the project directory
 
 ```bash
-  cd MusicPlayer
+  cd WeatherApp-ReduxToolKit
 ```
 
 #### Install QuizApp with npm
