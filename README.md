@@ -15,7 +15,8 @@
 <img src="https://raw.githubusercontent.com/AliNikandish/WeatherApp-ReduxToolKit/main/screen4.png"/>
 
 ## Demo:
-soon
+[Click Here](https://lambent-heliotrope-4c87ca.netlify.app/)
+
 
 ## API Used:
 [Open Weather APIs](https://openweathermap.org/current)
