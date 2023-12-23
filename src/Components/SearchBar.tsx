@@ -24,7 +24,7 @@ function SearchBar() {
           value={city}
           onChange={(e) => setCity(e.target.value)}
         />
-        <button className="absolute text-slate-50 bg-blue-500  py-[10px] md:py-2 px-1 md:px-4 rounded-md text-sm" onClick={handleFetchWeather} disabled={loading}>
+        <button className="mr-1 absolute text-slate-50 bg-blue-500  py-[10px] md:py-2 px-1 md:px-4 rounded-md text-sm" onClick={handleFetchWeather} disabled={loading}>
           {loading ? "جست و جو ..." : "پیدا کردن"}
         </button>
    </div>
