@@ -1,6 +1,5 @@
-import { CiTempHigh } from 'react-icons/ci'
 import { FaTachometerAlt } from 'react-icons/fa'
-import { GiPaperWindmill, GiWaterDrop } from 'react-icons/gi'
+import { GiPaperWindmill} from 'react-icons/gi'
 import { HiArrowNarrowDown, HiArrowNarrowUp } from 'react-icons/hi'
 import { MdOutlineVisibility } from 'react-icons/md'
 import { TbWorldLatitude, TbWorldLongitude } from 'react-icons/tb'
@@ -10,7 +9,6 @@ import { stateType } from '../Types/WeatherTypes'
 import { convertKelvinToCentigrade, getHumidityValue, getSunTime, getVisibilityValue, getWindDirection, translateDescription } from '../Utils/Helpers'
 import { WiHumidity } from "react-icons/wi";
 import { WiThermometer } from "react-icons/wi";
-import { WiBarometer } from "react-icons/wi";
 
 function Card() {
     const weatherData = useAppSelector((state: stateType) =>state.weather.weatherData);
