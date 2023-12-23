@@ -16,7 +16,7 @@ function SearchBar() {
   };
   
   return (
-    <div className="mt-10 w-[360px] md:w-[600px] lg:w-[800px]">
+    <div className="mt-10 w-[360px] md:w-[600px] lg:w-[800px] flex justify-between">
     <input
           className=" rounded-md p-2 w-[280px] md:w-[510px] lg:w-[710px] outline-none"
           type="text"
@@ -24,7 +24,7 @@ function SearchBar() {
           value={city}
           onChange={(e) => setCity(e.target.value)}
         />
-        <button className="mr-1 absolute text-slate-50 bg-blue-500  py-[10px] md:py-2 px-1 md:px-4 rounded-md text-sm" onClick={handleFetchWeather} disabled={loading}>
+        <button className="mr-1  text-slate-50 bg-blue-500  py-[10px] md:py-2 px-1 md:px-4 rounded-md text-sm" onClick={handleFetchWeather} disabled={loading}>
           {loading ? "جست و جو ..." : "پیدا کردن"}
         </button>
    </div>
